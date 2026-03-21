@@ -63,14 +63,19 @@
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   body {
-	margin:0;
-	padding:0;
-	background-color:#ffffff;
-	color:#1a1a1a;
-	font-family:"Open Sans",system-ui;
-	font-size:1.125rem;     				/* 18px */
-    font-weight:400;
-	line-height:1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* 如果需要背景图片则可以注释掉这一行 */
+  background-image: url('https://api.miiiku.com'); /* 添加背景图片 */
+  background-size: cover; /* 让背景图片覆盖整个视图窗口 */
+  background-position: center center; /* 背景图片居中对齐 */
+  background-attachment: fixed; /* 背景图片静止不动 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  color: #1a1a1a;
+  font-family: "Open Sans", system-ui;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 /* Typography
